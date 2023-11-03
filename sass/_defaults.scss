@@ -1,0 +1,44 @@
+:root {
+    --primary: #11B9DE;
+    --dark: #040610;
+    --dark2: #040618;
+    --body: #070B1B;
+    --white: #ffffff;
+    --warning: orange;
+    --box-shadow: 0 8px 22px rgba(0,0,0,0.1);
+}
+
+
+body {
+    font-family: "Roboto", sans-serif;
+    line-height: 1.7;
+    padding: 0;
+    margin: 0;
+    background-color: var(--body) !important;
+    overflow-x: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.btn-primary,.text-primary{
+    color: var(--primary);
+}
+
+.bg-card{
+    background-color: var(--dark);
+}
+.bg-card2{
+    background-color: var(--dark2);
+}
+
+.btn {
+    padding: 10px 25px;
+    border-width: 2px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+
